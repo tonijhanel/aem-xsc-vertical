@@ -1,0 +1,25 @@
+{
+  "name": "aem-xsc-vertical",
+  "version": "0.0.1",
+  "description": "Testing Vertical Template Theory",
+  "license": "MIT License, Copyright 2020 Adobe Systems Incorporated",
+  "scripts": {
+    "build": "aem-site-template-builder",
+    "stub": "aem-site-template-builder stub",
+    "deploy": "curl -u admin:admin -F file=@aem-xsc-vertical-latest.zip http://localhost:4502/bin/wcm/site-template/import"
+  },
+  "devDependencies": {
+    "@adobe/aem-site-template-builder": "2.3.1"
+  },
+  "siteTemplate": {
+    "title": "AEM XSC Vertical Theory",
+    "createdBy": "Adobe",
+    "useCases": [
+      "General purpose sites, corporate marketing sites, landing pages, blog sites, content marketing"
+    ],
+    "docsUrl": "",
+    "showcaseUrl": "",
+    "sourceRepositoryUrl": "https://github.com/adobe/aem-xsc-vertical",
+    "openItem": "{Path}/en/home"
+  }
+}
